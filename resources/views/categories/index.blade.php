@@ -4,11 +4,15 @@
 
 <div class="container">
     @if($message = Session::get('success'))
-        <div class="my-2 alert alert-success">
+        <div class="my-2 alert alert-success font-weight-bold">
             {{$message}}
         </div>
         @elseif($message = Session::get('danger'))
-        <div class="my-2 alert alert-danger">
+        <div class="my-2 alert alert-danger font-weight-bold">
+            {{$message}}
+        </div>
+    @elseif($message = Session::get('error'))
+        <div class="my-2 alert alert-danger font-weight-bold">
             {{$message}}
         </div>
     @endif

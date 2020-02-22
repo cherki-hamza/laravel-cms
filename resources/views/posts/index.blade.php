@@ -30,6 +30,8 @@
 {{--                    <td><i class="fal fa-archive mr-2"></i>post cat</td>--}}
                     <td><i class="fal fa-archive mr-2"></i>post content</td>
                     <td><i class="fal fa-archive mr-2"></i>post image</td>
+                    <td><i class="fal fa-archive mr-2"></i>cat_id</td>
+                    <td><i class="fal fa-archive mr-2"></i>cat_name</td>
                     <td><i class="fal fa-archive mr-2"></i>Action</td>
                 </tr>
                 </thead>
@@ -38,10 +40,11 @@
                       <tr>
                           <td>{{$post->id}}</td>
                           <td>{{$post->title}}</td>
-                          <td>{{$post->description}}</td>
+                          <td style="border-bottom-color: darkgreen;">{{$post->description}}</td>
                           <td>{!!$post->content!!}</td>
                           <td><img style="width: 100px;height: 50px;" class="img-thumbnail" src="{{ asset('storage/'.$post->image) }}" alt="{{ asset('storage/'.$post->image) }}" /></td>
-
+                          <td>{{$post->category_id}}</td>
+                          <td style="color: gold;border-bottom-color: #1f6fb2;">{{$post->category->name}}</td>
                           <td>
                           <div class="row float-right">
                               @if(!$post->trashed())

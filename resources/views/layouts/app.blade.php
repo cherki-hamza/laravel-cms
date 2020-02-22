@@ -10,9 +10,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/trix/1.2.1/trix.css" integrity="sha256-yebzx8LjuetQ3l4hhQ5eNaOxVLgqaY1y8JcrXuJrAOg=" crossorigin="anonymous" />
-    <script src="https://cdn.ckeditor.com/ckeditor5/16.0.0/classic/ckeditor.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -21,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('stylesheet')
 </head>
 <body>
     <div id="app">
@@ -36,11 +35,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                      cherki hamza developer web full stack
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                            @if(Auth()->user())
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('users.show' , Auth()->user()->id)}}">
+                                    <img id="{{Auth()->user()->hasPicture()}}" src="{{ Auth()->user()->hasPicture()? asset('storage/'.Auth()->user()->getPicture()) : Auth()->user()->getGravatar()}}" style="border-radius: 50%; width: 25px;height: 25px;" />
+                                </a>
+                            </li>
+                            @endif
+
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
@@ -80,6 +87,11 @@
                 <div class="row">
                     <div class="col-md-2 my-4">
                         <ul class="list-group">
+                            @if(auth()->user()->isAdmin())
+                                <li class="list-group-item">
+                                    <a href="{{route('users.index')}}"><i class="fal fa-cog mr-2"></i>Users</a>
+                                </li>
+                            @endif
                             <li class="list-group-item">
                                 <a href="/home"><i class="fal fa-home mr-2"></i>Home</a>
                             </li>
@@ -91,6 +103,12 @@
                             </li>
                             <li class="list-group-item">
                                 <a href="{{route('categories.index')}}"><i class="fal fa-cog mr-2"></i>Categories</a>
+                            </li>
+                                <li class="list-group-item">
+                                    <a href="{{route('users.edit' , Auth()->user()->id)}}"><i class="fal fa-cog mr-2"></i>Profile</a>
+                                </li>
+                            <li class="list-group-item">
+                                <a href="{{route('tags.index')}}"><i class="fal fa-cog mr-2"></i>Tags</a>
                             </li>
                             <li class="list-group-item">
                                 <a href="/posts"><i class="fal fa-cog mr-2"></i>Settings</a>
@@ -115,7 +133,6 @@
 {{--    <script src="{{ asset('assets/js/jquery.js') }}"></script>--}}
 {{--    <script src="{{ asset('assets/js/bootstrap.js') }}"></script>--}}
     <script src="{{ asset('assets/js/all.js') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/trix/1.2.1/trix.js" integrity="sha256-2D+ZJyeHHlEMmtuQTVtXt1gl0zRLKr51OCxyFfmFIBM=" crossorigin="anonymous"></script>
 
 @yield('scripts')
 

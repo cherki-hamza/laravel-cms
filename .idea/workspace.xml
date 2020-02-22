@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca0c8465-f025-40c8-b09f-587976e7d90e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/tags/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tags/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/user.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98636b13-538c-45f8-af95-1679c1f099b1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98636b13-538c-45f8-af95-1679c1f099b1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PostRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/PostRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdatePostRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdatePostRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_11_160905_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_11_160905_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,46 +56,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cms-app@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cms-app@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cms-app@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cms-app: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cms-app@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cms-app: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="posts: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-    </expand>
-    <select />
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,17 +154,25 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1XfIFd2oK6MvJJHS8ecKwRnEAo3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/var/www/html/php-trans" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
@@ -184,38 +198,80 @@
       <workItem from="1581508454133" duration="7325000" />
       <workItem from="1581588272144" duration="15776000" />
       <workItem from="1581688660938" duration="6975000" />
-      <workItem from="1581765732497" duration="17061000" />
+      <workItem from="1581765732497" duration="17658000" />
+      <workItem from="1581941602197" duration="61000" />
+      <workItem from="1581941710754" duration="609000" />
+      <workItem from="1581945193621" duration="15149000" />
+      <workItem from="1581980373688" duration="1277000" />
+      <workItem from="1582025918623" duration="27000" />
+      <workItem from="1582026220364" duration="631000" />
+      <workItem from="1582048306305" duration="4282000" />
+      <workItem from="1582073269729" duration="174000" />
+      <workItem from="1582073472407" duration="41000" />
+      <workItem from="1582073720204" duration="214000" />
+      <workItem from="1582110819195" duration="23890000" />
+      <workItem from="1582202667099" duration="14400000" />
+      <workItem from="1582243136474" duration="1012000" />
+      <workItem from="1582294815466" duration="699000" />
+      <workItem from="1582296981709" duration="20774000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="706" y="241" width="498" height="583" key="#Notifications" timestamp="1582202736956">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="706" y="241" width="498" height="583" key="#Notifications/0.27.1920.1005/1920.0.1920.1080@0.27.1920.1005" timestamp="1582202736956" />
     <state x="555" y="191" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581510146028">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
     <state x="555" y="191" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1005@0.27.1920.1005" timestamp="1581510146028" />
+    <state x="643" y="257" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582073443969">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="643" y="257" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1005@0.27.1920.1005" timestamp="1582073443969" />
     <state x="743" y="287" width="424" height="491" key="FileChooserDialogImpl" timestamp="1581523755610">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
     <state x="743" y="287" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1005@0.27.1920.1005" timestamp="1581523755610" />
-    <state x="449" y="164" width="1022" height="737" key="SettingsEditor" timestamp="1581430801702">
+    <state x="272" y="275" width="824" height="515" key="IDE.errors.dialog" timestamp="1582319865076">
       <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state x="449" y="164" width="1022" height="737" key="SettingsEditor/0.27.1920.1005@0.27.1920.1005" timestamp="1581430801702" />
-    <state x="1228" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1581765743067">
-      <screen x="0" y="27" width="3840" height="1005" />
+    <state x="272" y="275" width="824" height="515" key="IDE.errors.dialog/0.27.1920.1005/1920.0.1920.1080@0.27.1920.1005" timestamp="1582319865076" />
+    <state x="272" y="275" width="704" height="515" key="IDE.errors.dialog/0.27.1920.1005@0.27.1920.1005" timestamp="1582026254864" />
+    <state x="543" y="275" width="824" height="515" key="IDE.errors.dialog/0.27.3840.1005@0.27.3840.1005" timestamp="1581962428793" />
+    <state x="449" y="164" width="1022" height="737" key="SettingsEditor" timestamp="1582297044713">
+      <screen x="0" y="27" width="1920" height="1005" />
     </state>
-    <state x="614" y="357" key="com.intellij.ide.util.TipDialog/0.27.1920.1005@0.27.1920.1005" timestamp="1581508470275" />
+    <state x="449" y="164" width="1022" height="737" key="SettingsEditor/0.27.1920.1005/1920.0.1920.1080@0.27.1920.1005" timestamp="1582297044713" />
+    <state x="449" y="164" width="1022" height="737" key="SettingsEditor/0.27.1920.1005@0.27.1920.1005" timestamp="1581430801702" />
+    <state x="614" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1582243136604">
+      <screen x="0" y="27" width="1920" height="1005" />
+    </state>
+    <state x="614" y="357" key="com.intellij.ide.util.TipDialog/0.27.1920.1005@0.27.1920.1005" timestamp="1582243136604" />
     <state x="1228" y="357" key="com.intellij.ide.util.TipDialog/0.27.3840.1005@0.27.3840.1005" timestamp="1581765743067" />
     <state x="624" y="240" key="run.anything.popup" timestamp="1581689100008">
       <screen x="0" y="27" width="3840" height="1005" />
     </state>
     <state x="624" y="240" key="run.anything.popup/0.27.3840.1005@0.27.3840.1005" timestamp="1581689100008" />
-    <state x="367" y="214" width="1344" height="678" key="search.everywhere.popup" timestamp="1581790154109">
-      <screen x="0" y="27" width="3840" height="1005" />
+    <state x="184" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1582333490266">
+      <screen x="0" y="27" width="1920" height="1005" />
     </state>
+    <state x="184" y="214" width="672" height="678" key="search.everywhere.popup/0.27.1920.1005/1920.0.1920.1080@0.27.1920.1005" timestamp="1582333490266" />
     <state x="623" y="247" width="672" height="678" key="search.everywhere.popup/0.27.1920.1005@0.27.1920.1005" timestamp="1581434934437" />
     <state x="367" y="214" width="1344" height="678" key="search.everywhere.popup/0.27.3840.1005@0.27.3840.1005" timestamp="1581790154109" />
   </component>
